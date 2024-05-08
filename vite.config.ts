@@ -28,12 +28,12 @@ export default defineConfig({
         minify: 'terser',
         terserOptions: {
             sourceMap: process.env.VITE_SOURCE_MAP === 'true',
-            ecma: 2018,
+            ecma: 2020,
             compress: {
-                ecma: 2018,
+                ecma: 2020,
             },
             format: {
-                ecma: 2018,
+                ecma: 2020,
             },
         },
     },
